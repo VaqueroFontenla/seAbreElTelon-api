@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const { API_VERSION, API_NAME } = require("./config");
+const { API_VERSION } = require("./config");
 const router = require("./routes");
 
 const app = express();
@@ -19,6 +19,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(`/api/${API_VERSION}/${API_NAME}`, router);
+app.use(`/api/${API_VERSION}`, router);
 
 module.exports = app;
