@@ -1,0 +1,23 @@
+{
+  "name": "se-abre-el-telon-api",
+  "version": "1.0.0",
+  "description": "Aplicación de servidor que sirven datos sobre películas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "flims"
+  ],
+  "author": "Loreto Vaquero Fontenla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
