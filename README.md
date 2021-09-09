@@ -2,8 +2,6 @@
 
 Films for a Sunday evening
 
-<br>
-<br> 
 <hr>
 
 ### Serve app
